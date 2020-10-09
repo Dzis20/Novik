@@ -183,5 +183,32 @@
     img.portfolio-item-img {
         margin-bottom: 35px;
     }
+    .contact {
+        padding-top: 82px;
+        padding-bottom: 90px;
+    }
+    .contact h2 {
+        margin-bottom: 27px;
+    }
+    .contact p {
+        margin-bottom: 40px;
+    }
+    a.message {
+        margin-bottom: 48px;
+    }
+    .contact-list {
+        margin-bottom: 45px;
+    }
+    p.social {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 400px) {
+    a.message {
+        width: 100%
+    }
+    .contact-list {
+        width: 100%;
+    }
 }
 

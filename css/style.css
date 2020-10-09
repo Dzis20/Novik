@@ -32,12 +32,10 @@ ul {
     list-style: none;
     padding: 0
 }
-
 .container {
     max-width: 1445px;
     margin: 0 auto;
 }
-
 .header {
     background-color: #fff;
 }
@@ -64,14 +62,12 @@ ul.main-nav li.main-item:hover a, ul.main-nav li.main-item.active a {
 .burger-menu {
     display: none;
 }
-
 .header-middle-text {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 54px;
 }
-
 p.name {
     font-size: 47.3392px;
     line-height: 59px;
@@ -107,15 +103,12 @@ img.header-img-1 {
 img.header-img-2 {
     display: none;
 }
-
-
 .about {
     padding-top: 120.25px;
     padding-bottom: 107px;
     background-color: #F6F6F6;
     display: flex;
 }
-
 .about h2, .about p {
     text-align: center;
 }
@@ -137,7 +130,6 @@ img.header-img-2 {
 .about p:last-child {
     margin-bottom: 0;
 }
-
 .skills {
     padding-top: 91px;
     padding-bottom: 110.06px;
@@ -178,11 +170,11 @@ img.header-img-2 {
     width: 100%;
     justify-content: space-between;
 }
-
 .portfolio {
     padding-top: 112.93px;
     padding-bottom: 96.07px;
     text-align: center;
+    background: #F6F6F6;
 }
 .portfolio h2 {
     font-size: 34px;
@@ -191,6 +183,9 @@ img.header-img-2 {
 }
 .portfolio-item {
     margin-bottom: 99px;
+}
+.portfolio-item:last-child {
+    margin-bottom: 0;
 }
 img.portfolio-item-img {
     width: 100%;
@@ -201,3 +196,51 @@ p.portfolio-item-text {
     line-height: 22px;
     text-decoration-line: underline;
 }
+.contact {
+    padding-top: 114.24px;
+    padding-bottom: 123.19px;
+}
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h2 {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+.contact p {
+    max-width: 275.14px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 29px;
+    text-align: center;
+}
+a.message {
+    display: block;
+    width: 180px;
+    height: 42px;
+    background-color: #000;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 2.2;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 86px;
+}
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+    width: 342px;
+    margin-bottom: 45px;
+}
+p.social {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
