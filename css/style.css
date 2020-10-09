@@ -80,7 +80,7 @@ p.profession {
     font-size: 18px;
     font-weight: 500;
 }
-p.lang {
+a.lang {
     font-size: 16px;
     line-height: 19,81px;
     font-weight: bold;
@@ -89,8 +89,9 @@ p.lang {
     position: relative;
     bottom: 24px;
     left: 24px;
+    color: #000;
 }
-p.lang span {
+a.lang span {
     color: #828282
 }
 .header-bottom {
