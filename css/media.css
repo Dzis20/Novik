@@ -107,7 +107,7 @@
         transition: 1s;
         background-color: #828282;
     }
-    p.lang {
+    a.lang {
         position: fixed;
         left: -100%;
         width: 100%;
@@ -117,7 +117,7 @@
         line-height: 42px;
         transition: 1s;
     }
-    p.lang.active {
+    a.lang.active {
         left: -10%;
         bottom: -20%;
         height: 50%;
