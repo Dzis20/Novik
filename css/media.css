@@ -38,6 +38,9 @@
         transition: 1s;
     }
     ul.main-nav {
+        display: none;
+    }
+    ul.main-nav-nav {
         border: none;
         display: block;
         margin-left: 26px;
@@ -110,7 +113,6 @@
     a.lang {
         position: fixed;
         left: -100%;
-        width: 100%;
         z-index: 3;
         transform: rotate(90deg);
         font-size: 34px;
@@ -118,7 +120,7 @@
         transition: 1s;
     }
     a.lang.active {
-        left: -10%;
+        left: 0%;
         bottom: -20%;
         height: 50%;
         width: 100%;

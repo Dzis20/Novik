@@ -44,20 +44,23 @@ ul {
     padding-top: 33.05px;
     margin-bottom: 39.69px;
 }
+ul.main-nav-nav {
+    display: none;
+}
 ul.main-nav {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #828282;
 }
-ul.main-nav li.main-item {
+ul.main-nav li.main-item, ul.main-nav-nav li.main-item {
     margin-bottom: 33.05px;
 }
-ul.main-nav li.main-item a {
+ul.main-nav li.main-item a, ul.main-nav-nav li.main-item a {
     line-height: 22.28px;
     color: #828282;
     font-weight: bold;
 }
-ul.main-nav li.main-item:hover a, ul.main-nav li.main-item.active a {
+ul.main-nav li.main-item:hover a, ul.main-nav li.main-item.active a, ul.main-nav-nav li.main-item:hover a, ul.main-nav-nav li.main-item.active a {
     color: #070707;
 }
 .burger-menu {
